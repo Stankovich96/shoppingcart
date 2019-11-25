@@ -1,0 +1,64 @@
+body{
+    background-color: #F5F3FF;
+    width: 100%;
+    
+}
+
+.Sidebar{
+    background-color: #5c4d74;
+    height: 255vh;
+    width: 230px;
+    padding: 12px;
+}
+.Shoppingarea{
+    width: 60%;
+    background-color: white;
+    color:#5c4d74 ;
+    font-weight: bold;
+    padding: 4px;
+}
+.Emptytop{
+    height: 20px;
+    width: 100%;
+    background-color: #5c4d74;
+}
+.Quantity{
+    margin-left: 70%;
+}
+.Price{
+    margin-left: 40px;
+}
+.Vendor{
+    margin-left: 40px;
+}
+.Add-cart{
+color: #5c4d74;
+font-weight: bold;
+margin-left: 70%;
+margin-bottom: 10px;
+}
+
+input{
+    width: 15px;
+}
+.search{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.xty{
+    display: inline-block;
+}
+.line{
+    width: 200px;
+    background-color: gray;
+}
+.emptytop{
+    height: 20px;
+    width: 50%;
+    background-color: #5c4d74;
+    margin-top: 1%;
+}
+.remove-button{
+color: #5c4d74;
+}
