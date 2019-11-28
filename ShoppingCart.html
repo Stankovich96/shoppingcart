@@ -15,7 +15,7 @@
     </head>
     <body>
             <title> SHOPPING CART </title>
-        <div class="Container">
+        
            
            <div class="row">
 
@@ -28,7 +28,7 @@
                 <hr class="line"/>
                 <img src="images\shopping-cart-download.png" alt="Shopping cart image">
                 <br></br>
-                <button>View Shopping Cart</button>
+                <button onclick= "changeView()" id="changeTxt" type="button"class="btn btn-light">View Shopping Cart  </button>
             </div>
           
 
@@ -41,7 +41,7 @@
                         <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
                       </form>
                 
-             <div class="Shoppingarea"> 
+             <div class="Shoppingarea" id="viewShoppingCart"> 
                
                     <div class="Emptytop">
                         
@@ -82,6 +82,8 @@
             
                 <br></br>
             </div>
+
+            <div id="selectShoppingCart">
             <div class="emptytop">
                     <div class="items">
                         <table class="table">
@@ -118,9 +120,10 @@
         
                 </div>
             </div>
+            </div>
             
         </div> 
         
-        </div>
+     <script src="./js/ShoppingCart.js" ></script>   
     </body>
 </html>
